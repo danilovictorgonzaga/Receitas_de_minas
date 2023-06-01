@@ -1,0 +1,11 @@
+.apresentacao {
+    flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+}
